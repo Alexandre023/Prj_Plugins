@@ -13,3 +13,7 @@ $(document).on("click", "#confirm", function(){
 
   navigator.notification.confirm("Escolha A ou B",confirma,"Escolha:",['A','B']);
 });
+
+$(document).on("click", "#beep", function(){
+  navigator.notification.beep(2);
+});
