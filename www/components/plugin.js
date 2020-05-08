@@ -17,3 +17,7 @@ $(document).on("click", "#confirm", function(){
 $(document).on("click", "#beep", function(){
   navigator.notification.beep(2);
 });
+
+$(document).on("click", "#vibration", function(){
+  navigator.vibrate(700);
+});
